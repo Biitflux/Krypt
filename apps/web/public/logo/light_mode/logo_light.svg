@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="120" fill="#F8FAFC"></rect>
+  
+  <!-- Orbit Shape -->
+  <path d="M256 100
+           C350 100 412 162 412 256
+           C412 350 350 412 256 412" stroke="#0EA5E9" stroke-width="36" fill="none" stroke-linecap="round"></path>
+
+  <!-- Core -->
+  <circle cx="256" cy="256" r="48" fill="#0EA5E9"></circle>
+</svg>
