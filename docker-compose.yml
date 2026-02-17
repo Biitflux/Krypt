@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: krypt-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: krypt
+      POSTGRES_PASSWORD: krypt_dev_pw
+      POSTGRES_DB: krypt
+    ports:
+      - "5432:5432"
+    volumes:
+      - krypt_pgdata:/var/lib/postgresql/data
+
+volumes:
+  krypt_pgdata:
